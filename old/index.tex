@@ -1,0 +1,652 @@
+\documentclass[spanish,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdftitle={Historia y filosofía de la ciencia},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,main=spanish]{babel}
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[]{spanish}
+\fi
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\usepackage{fontspec}
+\setmainfont{Adobe Jenson Pro}
+\linespread{1.05}
+% https://github.com/rstudio/rmarkdown/issues/337
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+% https://github.com/rstudio/rmarkdown/pull/252
+\usepackage{titling}
+\setlength{\droptitle}{-2em}
+
+\pretitle{\vspace{\droptitle}\centering\huge}
+\posttitle{\par}
+
+\preauthor{\centering\large\emph}
+\postauthor{\par}
+
+\predate{\centering\large\emph}
+\postdate{\par}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\title{Historia y filosofía de la ciencia}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Descripción del curso}\label{descripciuxf3n-del-curso}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+Right Le & ft & Center De & fault\tabularnewline
+\midrule
+\endhead
+12 & 12 & 12 & 12\tabularnewline
+123 & 123 & 123 & 123\tabularnewline
+1 & 1 & 1 & 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+La filosofía de la ciencia trata varios problemas filosóficos que surgen
+al interior de la ciencia y la práctica científica. Este curso es una
+introducción a estas preguntas alrededor de tres cuestiones:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  ¿Qué es la ciencia?
+\item
+  ¿Qué es el progreso científico?
+\item
+  ¿Cuál es el lugar de la ciencia en la sociedad?
+\end{enumerate}
+
+\begin{verbatim}
+<th>
+<img align="right" src="img/1.jpg" title="Unknown + Heikenwaelder Hugo [CC BY-SA 2.5], via Wikimedia Commons" style="width:350;height:350px;padding: 10px;">
+\end{verbatim}
+
+El objetivo central de este curso es familiarizar al estudiante con
+preguntas fundamentales de la filosofía de la ciencia general y, si el
+tiempo lo permite, algunas de las problemáticas que surgen dentro de las
+ciencias particulares y de las que se ocupan las filosofías de las
+ciencias específicas.
+
+Para ello, primero, revisaremos un poco de la historia de la física para
+tener una aproximación a la pregunta ¿qué es la ciencia? La idea es que
+para saber qué es la ciencia tenemos que ver primero algunos casos
+concretos de la historia de la ciencia. Para eso estudiaremos algo de la
+historia de la física y la astronomía: empezaremos con algo de ciencia
+aristotélica y geometría euclidieana, luego veremos un poco de
+astronomía con el modelo ptolemáico y el copernicano y terminaremos con
+algo de física newtoniana, relativista y cuántica.
+
+Después veremos dos posibles formas de responder a la pregunta por la
+naturaleza de la ciencia, la postura del empirismo lógico y la de Thomas
+Kuhn. De acuerdo con una, la ciencia es una cálculo axiomático con una
+interpretación que la vincula con el mundo. De acuerdo con la otra, la
+ciencia es una práctica humana específica, con todos los vicios y
+virtudes que esto implica.
+
+Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad.
+Para ello veremos lo que tiene decir la filosofía de la ciencia
+feminista sobre la forma en que debemos entender la influencia del
+género en la práctica científica. También veremos una pregunta sobre la
+responsabilidad que tiene la ciencia sobre los decubrimientos
+científicos y una manera de aproximarse a esta pregunta. Si el tiempo lo
+permite, veremos, al final del semestre, algunos problemas en las
+ciencias específicas, dependiendo de los intereses particulares de los
+estudiantes matriculados.
+
+\textbf{Profesor}: \href{../index.html}{Juan Camilo Espejo-Serna}~
+
+\textbf{Horario}: Martes, 8:00 - 10:00; Viernes 8:00 - 9:00 am.
+
+\textbf{Grupo de MS Teams}: Por definir
+
+\textbf{Cuaderno de OneNote}: Por definir
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Objetivos}\label{objetivos}
+
+\begin{itemize}
+\item
+  Dominar el lenguaje propio de la discusión filosófica sobre la ciencia
+  para aportar en las discusiones sobre la naturaleza de la ciencia, del
+  progreso científico y su lugar en la sociedad.
+\item
+  Distinguir, relacionar y sistematizar conocimientos aportados por la
+  ciencia específicas y la filosofía para dar cuenta de la naturaleza de
+  la ciencia, del progreso científico y su lugar en la sociedad.
+\item
+  Plantear autónoma y críticamente relaciones entre distintos fenómenos
+  científicos para interpretarlos y establecer vínculos entre el
+  conocimiento teórico y la práctica científica.
+\item
+  Utilizar TIC para apoyar el estudio filosófico de la ciencia.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Metodología}\label{metodologuxeda}
+
+\paragraph{\texorpdfstring{\textbf{Antes de la
+sesión}}{Antes de la sesión}}\label{antes-de-la-sesiuxf3n}
+
+\begin{itemize}
+\tightlist
+\item
+  Todos los estudiantes deberán subir un control de lectura por tarde
+  \textbf{75 horas} antes de la sesión.
+\end{itemize}
+
+\paragraph{\texorpdfstring{\textbf{Durante la
+sesión}}{Durante la sesión}}\label{durante-la-sesiuxf3n}
+
+\begin{itemize}
+\item
+  Todos deben atender con cuidado a la presentación del profesor y
+  formular preguntas al respecto. Los controles de lectura transforman
+  la clase en la medida en que las presentaciones se irán ajustando a lo
+  que ustedes reflejen en los controles de lectura.
+\item
+  Revisen si entienden la exposición y si están de acuerdo; pregunten
+  por las relaciones con los temas anteriormente expuestos.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Plan semanal}\label{plan-semanal}
+
+\subsubsection{Semana 1}\label{semana-1}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Presentaci<U+00F3>n del programa & Las preguntas de la filosof<U+00ED>a de la ciencia\\
+\hline
+\end{tabular}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 2}\label{semana-2}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Expliaci<U+00F3>n aristot<U+00E9>lica & Los inicios del m<U+00E9>todo axiom<U+00E1>tico y la explicaci<U+00F3>n aristot<U+00E9>lica\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Losee, J. (1976). Introducción histórica a la filosofía de la
+  ciencia. España: Alianza Editorial. Pags. 15-38
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 3}\label{semana-3}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+El universo seg<U+00FA>n el aristotelismo & Cr<U+00ED>ticas al aristotelismo\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Losee, J. (1976). Introducción histórica a la filosofía de la
+  ciencia. España: Alianza Editorial. Pags. 53-103
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 4}\label{semana-4}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+F<U+00ED>sica cl<U+00E1>sica & Open Campus\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: (*) Fine, A. (1986). The Shaky Game. Chicago, USA: The
+  University of Chicago Press. Caps 1 y 3
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 5}\label{semana-5}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+F<U+00ED>sicas no-clasicas: relativista & F<U+00ED>sicas no-clasicas: cu<U+00E1>ntica\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: (*) Fine, A. (1986). The Shaky Game. Chicago, USA: The
+  University of Chicago Press. Cap 5
+\item
+  Hacer:
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 6}\label{semana-6}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Repaso & Empirismo l<U+00F3>gico\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Suppe, Frederick (1979)~La estructura de las teorías
+  científicas. Editora Nacional: Madrid, España. Partes I, II (★) y III
+\item
+  Hacer: Control de lectura y Taller virtual
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 7}\label{semana-7}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Empirismo l<U+00F3>gico & Empirismo l<U+00F3>gico\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Suppe, Frederick (1979)~La estructura de las teorías
+  científicas. Editora Nacional: Madrid, España. Partes I, II (★) y III
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 8}\label{semana-8}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Empirismo l<U+00F3>gico & Empirismo l<U+00F3>gico\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Suppe, Frederick (1979)~La estructura de las teorías
+  científicas. Editora Nacional: Madrid, España. Partes I, II y III (★)
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 9}\label{semana-9}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Problemas del empirismo l<U+00F3>gico & Quine: Dos dogmas del empirismo\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Quine, W. V. O. (2002) Desde un punto de vista lógico. Paidos:
+  Barcelona, España. Cap. 2
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 10}\label{semana-10}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Popper: contra el empirismo l<U+00F3>gico & Popper: conjeturas y refutaciones\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Popper, K (2002)~Conjeturas y refutaciones. Paidos: Barcelona,
+  España. Cap 1 (★)
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 11}\label{semana-11}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Repaso & Kuhn: ciencia normal\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Kuhn, Thomas (1962)~La estructura de las revoluciones
+  científicas. Fondo de cultura económica: México. Caps 1, 2, 3 y 4
+\item
+  Hacer: Control de lectura y el taller en virtual sabana
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 12}\label{semana-12}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Kuhn: ciencia normal & Kuhn: ciencia normal\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Kuhn, Thomas (1962)~La estructura de las revoluciones
+  científicas. Fondo de cultura económica: México. Caps 5, 6, 7 y 8
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 13}\label{semana-13}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Kuhn: ciencia revolucionaria & Kuhn: ciencia revolucionaria\\
+\hline
+\end{tabular}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 14}\label{semana-14}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Kuhn: ciencia revolucionaria & Ciencia y valores: Filosof<U+00ED>a feminista de la ciencia\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Harding, Ciencia y Feminismo (Cap 1),
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 15}\label{semana-15}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Ciencia y valores: Filosof<U+00ED>a feminista de la ciencia & Ciencia y valores: Filosof<U+00ED>a feminista de la ciencia\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Arrieta de Guzmán, Teresa (2018) Sobre el pensamiento feminista
+  y la ciencia . En
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 16}\label{semana-16}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Ciencia y valores: la responsabilidad cient<U+00ED>fica & Ciencia y valores: la responsabilidad cient<U+00ED>fica\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: Douglas, Heather E. (2003). The Moral Responsibilities of
+  Scientists (Tensions between Autonomy and Responsibility).~American
+  Philosophical Quarterly~40 (1):59 - 68.
+\item
+  Hacer: Control de lectura
+\end{itemize}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 17}\label{semana-17}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Martes & Viernes\\
+\hline
+Repaso & Taller final\\
+\hline
+\end{tabular}
+
+\begin{itemize}
+\item
+  Leer: ¡Todo!
+\item
+  Hacer: Repasar todas las presentaciones y Taller final
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Evaluación}\label{evaluaciuxf3n}
+
+\paragraph{\texorpdfstring{\textbf{Talleres}}{Talleres}}\label{talleres}
+
+Los talleres consistirán en una serie de preguntas que los alumnos
+deberán solucionar en la plataforma virtual. Es deber del estudiante
+entender bien cómo funciona la plataforma con anticipación a la fecha
+límite de entrega del taller.
+
+\paragraph{\texorpdfstring{\textbf{Control de
+lectura}}{Control de lectura}}\label{control-de-lectura}
+
+Extensión: entre 400 y 1000 palabras.
+
+Para cada lectura asignada, los estudiantes deben escribir un texto
+corto con la tesis principal, tres afirmaciones/presuposiciones del
+texto y tres preguntas/desafíos al texto.
+
+Los controles deberán ser subidos a la plataforma virtual a más tardar
+\textbf{75 horas} antes de la sesión. Todos los estudiantes empiezan con
+5.0 en esta nota. Por cada vez que no se participe dentro del rango de
+tiempo especificado, la nota será disminuida de acuerdo con los
+siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera
+vez: -1.5; cuarta vez: -2.0.
+
+\paragraph{\texorpdfstring{\textbf{Incumplimiento}}{Incumplimiento}}\label{incumplimiento}
+
+\emph{La vida nos da sorpresas; sorpresas nos da la vida.} Por eso,
+todos tienen un control de lectura ``de gracia''. Es decir, pueden dejar
+de entregar uno sin problema; el primer control de lectura que les falte
+no cuenta. Por ejemplo, si no entregan un control de lectura y entregan
+todos los demás, su nota igual queda en 5.0.
+
+Para todo lo demás, es importante avisar al profesor. Hablemos. No me
+tienen que contar sus problemas personales pero es importante que si se
+encuentran en una situación en la que ven que no pueden cumplir con los
+requerimientos de clase me avisen con la mayor anticipación posible y
+encontremos un plan para solventar el problema en lo que respecta a la
+clase. Insisto: hablemos, no se pierdan \textbf{:)}.
+
+\paragraph{\texorpdfstring{\textbf{Calificación}}{Calificación}}\label{calificaciuxf3n}
+
+\begin{tabular}{l|l|l|l|l|l}
+\hline
+Taller primer corte & Controles de lectura primer corte & Taller segundo corte & Controles de lectura sugundo corte & Taller tercer corte & Controles de lectura tercer corte\\
+\hline
+15\% & 15\% & 15\% & 15\% & 25\% & 15\%\\
+\hline
+\end{tabular}
+
+\end{document}
