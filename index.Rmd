@@ -6,19 +6,11 @@ always_allow_html: yes
 output:
  
   html_document:
-    theme: united
+    theme: cerulean
     toc: yes
     toc_depth: 4
     toc_float: yes
-  pdf_document:
-    latex_engine: xelatex
-    toc: no
-    keep_tex: true
-lang: es-co
-header-includes:
-- \usepackage{fontspec}
-- \setmainfont{Adobe Jenson Pro}
-- \linespread{1.05}
+  
 ---
 <script>
 !--    google analytics-->
@@ -35,7 +27,7 @@ header-includes:
 
 
 ## Descripción del curso
-<img src="img/12.jpg" style="padding:5px;">
+<img src="img/red.jpg" style="padding:5px;">
 
  <div style="display: flex; flex-wrap: wrap;">
  
