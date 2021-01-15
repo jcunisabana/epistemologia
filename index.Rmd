@@ -1,6 +1,6 @@
 ---
 title: "Epistemología de la investigación"
-author: ''
+author: 'Una introducción a la epistemología de la interdisciplinariedad'
 date: ''
 always_allow_html: yes
 output:
@@ -34,34 +34,23 @@ header-includes:
 </script>
 
 
-## Descripción del curso
+## Descripción del seminario
 <img src="img/networ.jpg" style="padding:5px;">
 
- <div style="display: flex; flex-wrap: wrap;">
+El objetivo general de este seminario es examinar los métodos, las metodologías, las habilidades, competencias y capacidades para investigar en el campo que comprende la unión de las ciencias experimentales, sociales y humanas dentro de lo que usualmente se conoce como *interdisciplinariedad*. Estudiaremos la idea de una disciplina, su forma de investigar y cómo se puede caracterizar la investigación que no se ajusta a tales maneras. En el contexto de la Maestría en Teología, la idea es ofrecer al estudiante las bases para una investigación que no solo abarque las diversas áreas de la Teología, sino también de las ciencias sociales, humanas y experimentales.
+
+Discutiremos los valores de una disciplina, la forma en que las metodologías propias de una disciplina deben relacionarse con otras, la noción de evidencia, la relación entre la investigación, el sujeto y el objeto de estudio, la necesidad de la neutralidad en la investigación y la relación de la investigación académica con los llamados “problemas reales”.  
+
+Para ello, primero examinaremos el rol general de la discusión epistemológica en la maestría y hablaremos sobre sus disciplinas bases, aquellas que estudiaron durante su pregrado o la mayor parte de sus estudios, en la que se han desempeñado principal o con la que mejor se identifican. Después utilizaremos un cuestionario para guiar la discusión sobre la forma en que se investiga en cada una de sus disciplinas (basado en Hubbs, G., O'Rourke, M., & Orzack, S. H. (2020)) y la manera en que creen que esto enmarca también su futura investigación a lo largo de la Maestría en Teología. Posteriormente, discutiremos la tensión en la investigación disciplinar y su aplicabilidad a los “problemas reales”. (De paso, discutiremos también la idoneidad de la noción de “problemas reales”). Para finalizar hablaremos sobre la idea misma de la disciplinariedad y las formas en que podemos caracterizar la diferencias con la interdisciplinariedad, transdisciplinariedad y multidisciplinariedad y otras formas de investigación por fuera de los esquemas presentados por una disciplina. Terminaremos con un retorno al cuestionario inicial con miras a determinar la forma en que su aproximación a la investigación ha cambiado a luz del seminario y la forma en que formularía una investigación dentro del marco epistemológico presentado. 
  
-<div style="flex: 0 1 100%;">
-La filosofía de la ciencia trata varios problemas filosóficos que surgen al interior de la ciencia y la práctica científica. Este curso es una introducción a estas preguntas alrededor de tres cuestiones: <ol><li>¿Qué es la ciencia?</li><li>¿Qué es el progreso científico? </li><li>¿Cuál es el lugar de la ciencia en la sociedad?</li> </ol></div> </div>
-
- 
- 
-
-El objetivo central de este curso es familiarizar al estudiante con preguntas fundamentales de la filosofía de la ciencia general y, si el tiempo lo permite, algunas de las problemáticas que surgen dentro de las ciencias particulares y de las que se ocupan las filosofías de las ciencias específicas. 
-
-Para ello, primero, revisaremos un poco de la historia de la física para tener una aproximación a la pregunta ¿qué es la ciencia? La idea es que para saber qué es la ciencia tenemos que ver primero algunos casos concretos de la historia de la ciencia. Para eso estudiaremos algo de la historia de la física y la astronomía: empezaremos con algo de ciencia aristotélica y geometría euclidieana, luego veremos un poco de astronomía con el modelo ptolemáico y el copernicano  y terminaremos con algo de física newtoniana, relativista y cuántica.
-
-Después veremos dos posibles formas de responder a la pregunta por la naturaleza de la ciencia, la postura del empirismo lógico y la de Thomas Kuhn. De acuerdo con una, la ciencia es una cálculo axiomático con una interpretación que la vincula con el mundo. De acuerdo con la otra, la ciencia es una práctica humana específica, con todos los vicios y virtudes que esto implica. 
-
-Finalizaremos con algunas cuestion el rol de la ciencia en la sociedad. Para ello veremos lo que tiene decir la filosofía de la ciencia feminista sobre la forma en que debemos entender la influencia del género en la práctica científica. También veremos una pregunta sobre la responsabilidad que tiene la ciencia sobre los decubrimientos científicos y una manera de aproximarse a esta pregunta. Si el tiempo lo permite, veremos, al final del semestre, algunos problemas en las ciencias específicas, dependiendo de los intereses particulares de los estudiantes matriculados.
-
 **Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
 
-**Página web**: http://jcunisabana.github.io/filociencia/
+**Página web**: http://jcunisabana.github.io/epistemologia
 
-**Horario**: Martes, 8:00 - 10:00; Viernes 8:00 - 9:00 am.
+**Horario**: Lunes 18 Enero - Sábado 23 Enero 2021, 4:00 - 6:00 pm
 
 **Grupo de MS Teams**: [Aquí](https://teams.microsoft.com/l/team/19%3a47148dea91c344d3b1ef43d15d45fa29%40thread.tacv2/conversations?groupId=71020fbe-eba5-41d3-a820-ca568eca3871&tenantId=aca51631-00fe-490d-91ab-163ef87260ee)
 
-**Cuaderno de MS OneNote**: [Aquí](https://unisabanaedu.sharepoint.com/sites/Section_36000127041858/_layouts/15/Doc.aspx?sourcedoc={e8b4e6a5-613b-44fe-bde9-53e3ed12f849}&action=edit&wd=target%28Bienvenido.one%7C1fabb179-cc36-46c1-ab31-56a4f83ea4bb%2F%29&wdorigin=717)
 
 <img src="img/borde.jpg" style="padding:5px;">
 
