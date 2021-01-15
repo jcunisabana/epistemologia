@@ -37,7 +37,7 @@ header-includes:
 ## Descripción del seminario
 <img src="img/networ.jpg" style="padding:5px;">
 
-El objetivo general de este seminario es examinar los métodos, las metodologías, las habilidades, competencias y capacidades para investigar en el campo que comprende la unión de las ciencias experimentales, sociales y humanas dentro de lo que usualmente se conoce como *interdisciplinariedad*. Estudiaremos la idea de una disciplina, su forma de investigar y cómo se puede caracterizar la investigación que no se ajusta a tales maneras. En el contexto de la Maestría en Teología, la idea es ofrecer al estudiante las bases para una investigación que no solo abarque las diversas áreas de la Teología, sino también de las ciencias sociales, humanas y experimentales.
+El objetivo general de este seminario es examinar los métodos,  metodologías, habilidades, competencias y capacidades para investigar en el campo que comprende la unión de las ciencias experimentales, sociales y humanas usualmente conocido como *interdisciplinariedad*. Estudiaremos la idea de una disciplina, su forma de investigar y cómo se puede caracterizar la investigación que no se ajusta a tales maneras. En el contexto de la Maestría en Teología, la idea es ofrecer al estudiante las bases para una investigación que no solo abarque las diversas áreas de la Teología, sino también de las ciencias sociales, humanas o experimentales.
 
 Discutiremos los valores de una disciplina, la forma en que las metodologías propias de una disciplina deben relacionarse con otras, la noción de evidencia, la relación entre la investigación, el sujeto y el objeto de estudio, la necesidad de la neutralidad en la investigación y la relación de la investigación académica con los llamados “problemas reales”.  
 
@@ -56,46 +56,29 @@ Para ello, primero examinaremos el rol general de la discusión epistemológica 
 
 ## Objetivos
 
-- Dominar el lenguaje propio de la discusión filosófica sobre la ciencia para aportar en las discusiones sobre la naturaleza de la ciencia, del progreso científico y su lugar en la sociedad.
+- Leer críticamente textos académicos que permitan desarrollar hábitos intelectuales.
 
-- Distinguir, relacionar y sistematizar conocimientos aportados por la ciencia específicas y la filosofía para dar cuenta de la naturaleza de la ciencia, del progreso científico y su lugar en la sociedad.						
+- Discernir el ámbito general del tipo de investigación que realizará a lo largo del programa académico.
 
-- Plantear autónoma y críticamente relaciones entre distintos fenómenos científicos para interpretarlos y establecer vínculos entre el conocimiento teórico y la práctica científica.
-
-- Utilizar TIC para apoyar el estudio filosófico de la ciencia.
-
-<img src="img/borde.jpg" style="padding:5px;">
-
-## Metodología
-
-
-#### **Antes de la sesión**
-
-- Todos los estudiantes deberán subir un control de lectura por tarde **75 horas** antes de la sesión.
-
-#### **Durante la sesión**
-
-- Todos deben atender con cuidado a la presentación del profesor y formular preguntas al respecto. Los controles de lectura transforman la clase en la medida en que las presentaciones se irán ajustando a lo que ustedes reflejen en los controles de lectura.
-
-- Revisen si entienden la exposición y si están de acuerdo; pregunten por las relaciones con los temas anteriormente expuestos.
+- Producir un ensayo corto (máximo 2000 palabras) en donde formule una pregunta bien definida y determine la metodología que va a seguir para responderla. 
 
 
 <img src="img/borde.jpg" style="padding:5px;">
 
-## Plan semanal 
+## Sesiones  
 
 `r Semana <- 1`
 
 
-### Semana `r Semana`
+### Sesión `r Semana`
 
 ```{r echo=FALSE}
 library(readxl)
 library(knitr)
 library(kableExtra)
 
-PlanSemanal <-  read_excel("HFC.xlsx",sheet = "info")
-Notas <- read_excel("HFC.xlsx", sheet = "notas")
+PlanSemanal <-  read_excel("Epis.xlsx",sheet = "info")
+Notas <- read_excel("Epis.xlsx", sheet = "notas")
 
   kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
   column_spec(1:2, width = "30em")
@@ -118,53 +101,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 ```
 
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-<iframe width="100%" height="400" align="middle" src="2.html" border="0">
-</iframe>
-<a href="2.html">Presentación en pantalla completa</a>
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-<iframe width="100%" height="400" align="middle" src="3.html" border="0">
-</iframe>
-<a href="3.html">Presentación en pantalla completa</a>
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-<iframe width="100%" height="400" align="middle" src="4.html" border="0">
-</iframe>
-<a href="4.html">Presentación en pantalla completa</a>
+<img src="img/borde.jpg" style="padding:5px;">
 
 
 ---
@@ -179,34 +116,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 ```
 
-- Leer: `r PlanSemanal$Texto[Semana]`
 
-- Hacer: `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("", PlanSemanal$Recordatorio[Semana]) `
-
-<iframe width="100%" height="400" align="middle" src="4.html" border="0">
-</iframe>
-<a href="4.html">Presentación en pantalla completa</a>
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-<iframe width="100%" height="400" align="middle" src="6.html" border="0">
-</iframe>
-<a href="6.html">Presentación en pantalla completa</a>
+<img src="img/borde.jpg" style="padding:5px;">
 
 
 ---
@@ -221,16 +132,8 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 ```
 
-- Leer: `r PlanSemanal$Texto[Semana]`
 
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-<iframe width="100%" height="400" align="middle" src="6.html" border="0">
-</iframe>
-<a href="6.html">Presentación en pantalla completa</a>
-
-
+<img src="img/borde.jpg" style="padding:5px;">
 
 ---
 `r Semana <- Semana +1`
@@ -244,17 +147,7 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
 
 ```
 
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
-
-<iframe width="100%" height="400" align="middle" src="6.html" border="0">
-</iframe>
-<a href="6.html">Presentación en pantalla completa</a>
-
+<img src="img/borde.jpg" style="padding:5px;">
 
 
 ---
@@ -268,189 +161,6 @@ Notas <- read_excel("HFC.xlsx", sheet = "notas")
   column_spec(1:2, width = "30em")
 
 ```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
-<iframe width="100%" height="400" align="middle" src="8.html" border="0">
-</iframe>
-<a href="8.html">Presentación en pantalla completa</a>
-
-
-`r Semana <- Semana +1`
-
-
----
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
-<iframe width="100%" height="400" align="middle" src="9.html" border="0">
-</iframe>
-<a href="9.html">Presentación en pantalla completa</a>
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
-<iframe width="100%" height="400" align="middle" src="10.html" border="0">
-</iframe>
-<a href="10.html">Presentación en pantalla completa</a>
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
-<iframe width="100%" height="400" align="middle" src="10.html" border="0">
-</iframe>
-<a href="10.html">Presentación en pantalla completa</a>
-
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-<iframe width="100%" height="400" align="middle" src="11.html" border="0">
-</iframe>
-<a href="11.html">Presentación en pantalla completa</a>
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-<iframe width="100%" height="400" align="middle" src="11.html" border="0">
-</iframe>
-<a href="11.html">Presentación en pantalla completa</a>
-
-
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-<iframe width="100%" height="400" align="middle" src="15.html" border="0">
-</iframe>
-<a href="15.html">Presentación en pantalla completa</a>
-
-
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Control de lectura `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-<iframe width="100%" height="400" align="middle" src="16.html" border="0">
-</iframe>
-<a href="16.html">Presentación en pantalla completa</a>
-
-
----
-`r Semana <- Semana +1`
-
-### Semana `r Semana`
-
-```{r echo=FALSE}
-
-  kable(PlanSemanal[Semana, c(5,6)]) %>%kable_styling(bootstrap_options = c("striped", "hover"), position = "left")%>%
-  column_spec(1:2, width = "30em")
-
-```
-
-- Leer: `r PlanSemanal$Texto[Semana]`
-
-- Hacer: Repasar todas las presentaciones `r if(!(is.na(PlanSemanal$Recordatorio[Semana]))) paste("y ", PlanSemanal$Recordatorio[Semana]) `
-
-
-
 
 <img src="img/borde.jpg" style="padding:5px;">
 
