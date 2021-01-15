@@ -6,7 +6,7 @@ always_allow_html: yes
 output:
  
   html_document:
-    theme: united
+    theme: cerulean
     toc: yes
     toc_depth: 4
     toc_float: yes
@@ -35,7 +35,7 @@ header-includes:
 
 
 ## Descripción del curso
-<img src="img/12.jpg" style="padding:5px;">
+<img src="img/networ.jpg" style="padding:5px;">
 
  <div style="display: flex; flex-wrap: wrap;">
  
