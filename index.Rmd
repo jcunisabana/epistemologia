@@ -37,11 +37,11 @@ header-includes:
 ## Descripción del seminario
 <img src="img/networ.jpg" style="padding:5px;">
 
-El objetivo general de este seminario es examinar los métodos,  metodologías, habilidades, competencias y capacidades para investigar en el campo que comprende la unión de las ciencias experimentales, sociales y humanas usualmente conocido como *interdisciplinariedad*. Estudiaremos la idea de una disciplina, su forma de investigar y cómo se puede caracterizar la investigación que no se ajusta a tales maneras. En el contexto de la Maestría en Teología, la idea es ofrecer al estudiante las bases para una investigación que no solo abarque las diversas áreas de la Teología, sino también de las ciencias sociales, humanas o experimentales.
+El objetivo general de este seminario es examinar los métodos,  metodologías y competencias para investigar en el campo que comprende la unión de las ciencias experimentales, sociales y humanas usualmente conocido como *interdisciplinariedad* con miras a la integración de consideraciones sobre cultura, fe y ciencia. Estudiaremos la idea de una disciplina, su forma de investigar y cómo se puede caracterizar la investigación que no se ajusta a tales maneras. En el contexto de la [Maestría en Teología](https://www.unisabana.edu.co/index.php?id=12310), la idea es ofrecer al estudiante las bases para una investigación que no solo abarque las diversas áreas de la Teología, sino también de las ciencias sociales, humanas o experimentales.
 
 Discutiremos los valores de una disciplina, la forma en que las metodologías propias de una disciplina deben relacionarse con otras, la noción de evidencia, la relación entre la investigación, el sujeto y el objeto de estudio, la necesidad de la neutralidad en la investigación y la relación de la investigación académica con los llamados “problemas reales”.  
 
-Para ello, primero examinaremos el rol general de la discusión epistemológica en la maestría y hablaremos sobre sus disciplinas bases, aquellas que estudiaron durante su pregrado o la mayor parte de sus estudios, en la que se han desempeñado principal o con la que mejor se identifican. Después utilizaremos un cuestionario para guiar la discusión sobre la forma en que se investiga en cada una de sus disciplinas (basado en Hubbs, G., O'Rourke, M., & Orzack, S. H. (2020)) y la manera en que creen que esto enmarca también su futura investigación a lo largo de la Maestría en Teología. Posteriormente, discutiremos la tensión en la investigación disciplinar y su aplicabilidad a los “problemas reales”. (De paso, discutiremos también la idoneidad de la noción de “problemas reales”). Para finalizar hablaremos sobre la idea misma de la disciplinariedad y las formas en que podemos caracterizar la diferencias con la interdisciplinariedad, transdisciplinariedad y multidisciplinariedad y otras formas de investigación por fuera de los esquemas presentados por una disciplina. Terminaremos con un retorno al cuestionario inicial con miras a determinar la forma en que su aproximación a la investigación ha cambiado a luz del seminario y la forma en que formularía una investigación dentro del marco epistemológico presentado. 
+Para ello, primero examinaremos el rol general de la discusión epistemológica en la maestría y hablaremos sobre las disciplinas base de quienes conmpongan el seminario, estas son aquellas que estudiaron durante su pregrado o la mayor parte de sus estudios, en la que se han desempeñado principalmente o con la que mejor se identifican. Después utilizaremos un cuestionario para guiar la discusión sobre la forma en que se investiga en cada una de sus disciplinas (basado en Hubbs, G., O'Rourke, M., & Orzack, S. H. (2020)) y la manera en que creen que esto enmarca también su futura investigación a lo largo de la Maestría en Teología. Posteriormente, discutiremos la tensión en la investigación disciplinar y su aplicabilidad a los “problemas reales” (con un espacio en donde discutiremos también la idoneidad de la noción de “problemas reales”). Para finalizar hablaremos sobre la idea misma de la disciplinariedad y las formas en que podemos caracterizar la diferencias con la interdisciplinariedad, transdisciplinariedad y multidisciplinariedad y otras formas de investigación por fuera de los esquemas presentados por una disciplina. Terminaremos con un retorno al cuestionario inicial con miras a determinar la forma en que su aproximación a la investigación ha cambiado a luz del seminario y la forma en que formularía una investigación sobre fe, ciencia y cultura dentro del marco epistemológico presentado. 
  
 **Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
 
@@ -49,7 +49,7 @@ Para ello, primero examinaremos el rol general de la discusión epistemológica 
 
 **Horario**: Lunes 18 - Sábado 23, Enero 2021, 4:00 - 6:00 pm
 
-**Grupo de MS Teams**: [Aquí](https://teams.microsoft.com/l/team/19%3a47148dea91c344d3b1ef43d15d45fa29%40thread.tacv2/conversations?groupId=71020fbe-eba5-41d3-a820-ca568eca3871&tenantId=aca51631-00fe-490d-91ab-163ef87260ee)
+**Grupo de MS Teams**: [https://tinyurl.com/yyf7mjr9](https://tinyurl.com/yyf7mjr9)
 
 
 <img src="img/borde.jpg" style="padding:5px;">
@@ -167,24 +167,28 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 
 ## Evaluación
 
-#### **Talleres**
+#### **Reseña crítica**
 
-Los talleres consistirán en una serie de preguntas que los alumnos deberán solucionar en la plataforma virtual. Es deber del estudiante entender bien cómo funciona la plataforma con anticipación a la fecha límite de entrega del taller.
+Después de la segunda semana de *Introducción a la Sagrada Escritura* deberán tomar uno de los textos de la bibliografía sobre interdisciplinariedad y relacionar ese tipo de consideraciones con el estudio de una cuestion de fe, ciencia y cultura.
 
-#### **Control de lectura**
-Extensión: entre 400 y 1000 palabras.
+#### **Participación activa**
 
-Para cada lectura asignada, los estudiantes deben escribir un texto corto con la tesis principal, tres afirmaciones/presuposiciones del texto y tres preguntas/desafíos al texto. 
+El diálogo es esencial para el desarrollo de la materia pues será gracias a éste que podremos ver en acción los retos que presenta la integración de diferentes perspectivas. 
 
-Los controles deberán ser subidos a la plataforma virtual a más tardar **75 horas** antes de la sesión. Todos los estudiantes empiezan con 5.0 en esta nota. Por cada vez que no se participe dentro del rango de tiempo especificado, la nota será disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
+Habrá tres actividades en las que tendrán que participar, ofrenciendo su punto de vista de manera argumentada y dialogando con las opiniones de sus compañeros.
+
+#### **Ensayo**
+Extensión: entre 1000 y 2000 palabras.
+
+Se deberán tomar los temas de disciplinariedad e interdisciplininariedad y adptarlos a un ensayo corto en donde se presente una pregunta teológica bien definida y una sólida y precisa caracterización de la metología qu emplearían para responderla. 
+
 
 #### **Incumplimiento**
 <p style="color:white; background-color:indigo; padding: 5px;">
 *La vida nos da sorpresas; sorpresas nos da la vida.* 
-Por eso, todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan un control de lectura y entregan todos los demás, su nota igual queda en 5.0.</p>
+Por eso, si por alguna razón no pueden cumplir con las fechas exigidas para los trabajos, es importante avisar al profesor con tiempo. Hablemos. No me tienen que contar todos los detalles de sus problemas pero es importante que si se encuentran en una situación en la que ven que no pueden cumplir con los requerimientos del seminario me avisen con la mayor anticipación posible y encontremos un plan para solventar el problema en lo que respecta a la clase. Insisto: hablemos, no se pierdan **:)** .</p>
 
 
-Para todo lo demás, es importante avisar al profesor. Hablemos. No me tienen que contar sus problemas personales pero es importante que si se encuentran en una situación en la que ven que no pueden cumplir con los requerimientos de clase me avisen con la mayor anticipación posible y encontremos un plan para solventar el problema en lo que respecta a la clase. Insisto: hablemos, no se pierdan **:)**. 
 
 
 #### **Calificación**
@@ -193,7 +197,7 @@ Para todo lo demás, es importante avisar al profesor. Hablemos. No me tienen qu
 library(knitr)
 library(kableExtra)
 
-  kable(Notas[1 ,c(2,3,5,6,8,9)]) %>%
+  kable(Notas[1 ,c(2,3,5)]) %>%
   kable_styling(bootstrap_options = c("striped", "hover"), full_width = F, position = "left")
 ```
 
