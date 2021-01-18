@@ -171,7 +171,7 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 
 #### **Reseña crítica**
 
-El **2 de Marzo** deberán entregar un escrito en donde tomen uno de los textos de la bibliografía sobre interdisciplinariedad y relacionen ese tipo de consideraciones con el estudio de una cuestion de fe, ciencia y cultura. 
+El **2 de Marzo** deberán entregar un escrito en donde tomen uno de los textos de la bibliografía sobre interdisciplinariedad y relacionen ese tipo de consideraciones con el estudio de una cuestión de fe, ciencia y cultura. 
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
 
@@ -181,14 +181,14 @@ Se evaluarán dos aspectos: la presentación apropiada de la pregunta general po
 
 El diálogo es esencial para el desarrollo de la materia pues será gracias a éste que podremos ver en acción los retos que presenta la integración de diferentes perspectivas. 
 
-Habrá tres actividades en las que tendrán que participar, ofrenciendo su punto de vista de manera argumentada y dialogando con las opiniones de sus compañeros. Si se participa en todas, la nota será 5. Si se participa en dos, la nota será de 3.5, si se participa en 1, la nota será de 2.0. 
+Habrá tres actividades en las que tendrán que participar, ofreciendo su punto de vista de manera argumentada y dialogando con las opiniones de sus compañeros. Si se participa en todas, la nota será 5. Si se participa en dos, la nota será de 3.5, si se participa en 1, la nota será de 2.0. 
 
 ---
 
 #### **Ensayo**
 Extensión: entre 1000 y 2000 palabras.
 
-El **2 de Mayo** deberán entregar un ensayo corto en el que tomen los temas de disciplinariedad e interdisciplininariedad y presenten una pregunta teológica bien definida y una sólida y precisa caracterización de la metología qu emplearían para responderla. (Es una nueva versión de la reseña crítica en donde ahora incorporan todo lo visto en el curso y una investigación propia.)
+El **2 de Mayo** deberán entregar un ensayo corto en el que tomen los temas de disciplinariedad e interdisciplininariedad y presenten una pregunta teológica bien definida y una sólida y precisa caracterización de la metodología qu emplearían para responderla. (Es una nueva versión de la reseña crítica en donde ahora incorporan todo lo visto en el curso y una investigación propia.)
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
  
