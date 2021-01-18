@@ -1,0 +1,313 @@
+\documentclass[spanish,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdftitle={Epistemología de la investigación},
+            pdfauthor={Una introducción a la epistemología de la interdisciplinariedad},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,main=spanish]{babel}
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[]{spanish}
+\fi
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\usepackage{fontspec}
+\setmainfont{Adobe Jenson Pro}
+\linespread{1.05}
+% https://github.com/rstudio/rmarkdown/issues/337
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+% https://github.com/rstudio/rmarkdown/pull/252
+\usepackage{titling}
+\setlength{\droptitle}{-2em}
+
+\pretitle{\vspace{\droptitle}\centering\huge}
+\posttitle{\par}
+
+\preauthor{\centering\large\emph}
+\postauthor{\par}
+
+\predate{\centering\large\emph}
+\postdate{\par}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\title{Epistemología de la investigación}
+\author{Una introducción a la epistemología de la interdisciplinariedad}
+\date{}
+
+\begin{document}
+\maketitle
+
+\subsection{Descripción del
+seminario}\label{descripciuxf3n-del-seminario}
+
+El objetivo general de este seminario es examinar los métodos,
+metodologías y competencias para investigar en el campo que comprende la
+unión de las ciencias experimentales, sociales y humanas usualmente
+conocido como \emph{interdisciplinariedad} con miras a la integración de
+consideraciones sobre cultura, fe y ciencia. Estudiaremos la idea de una
+disciplina, su forma de investigar y cómo se puede caracterizar la
+investigación que no se ajusta a tales maneras. En el contexto de la
+\href{https://www.unisabana.edu.co/index.php?id=12310}{Maestría en
+Teología}, la idea es ofrecer al estudiante las bases para una
+investigación que no solo abarque las diversas áreas de la Teología,
+sino también de las ciencias sociales, humanas o experimentales.
+
+Discutiremos los valores de una disciplina, la forma en que las
+metodologías propias de una disciplina deben relacionarse con otras, la
+noción de evidencia, la relación entre la investigación, el sujeto y el
+objeto de estudio, la necesidad de la neutralidad en la investigación y
+la relación de la investigación académica con los llamados ``problemas
+reales''.
+
+Para ello, primero examinaremos el rol general de la discusión
+epistemológica en la maestría y hablaremos sobre las disciplinas base de
+quienes conmpongan el seminario, estas son aquellas que estudiaron
+durante su pregrado o la mayor parte de sus estudios, en la que se han
+desempeñado principalmente o con la que mejor se identifican. Después
+utilizaremos un cuestionario para guiar la discusión sobre la forma en
+que se investiga en cada una de sus disciplinas (basado en Hubbs, G.,
+O'Rourke, M., \& Orzack, S. H. (2020)) y la manera en que creen que esto
+enmarca también su futura investigación a lo largo de la Maestría en
+Teología. Posteriormente, discutiremos la tensión en la investigación
+disciplinar y su aplicabilidad a los ``problemas reales'' (con un
+espacio en donde discutiremos también la idoneidad de la noción de
+``problemas reales''). Para finalizar hablaremos sobre la idea misma de
+la disciplinariedad y las formas en que podemos caracterizar la
+diferencias con la interdisciplinariedad, transdisciplinariedad y
+multidisciplinariedad y otras formas de investigación por fuera de los
+esquemas presentados por una disciplina. Terminaremos con un retorno al
+cuestionario inicial con miras a determinar la forma en que su
+aproximación a la investigación ha cambiado a luz del seminario y la
+forma en que formularía una investigación sobre fe, ciencia y cultura
+dentro del marco epistemológico presentado.
+
+\textbf{Profesor}: \href{../index.html}{Juan Camilo Espejo-Serna}~
+
+\textbf{Página web}: \url{http://jcunisabana.github.io/epistemologia}
+
+\textbf{Horario}: Lunes 18 - Sábado 23, Enero 2021, 4:00 - 6:00 pm
+
+\textbf{Grupo de MS Teams}: \url{https://tinyurl.com/yyf7mjr9}
+
+\subsection{Objetivos}\label{objetivos}
+
+\begin{itemize}
+\item
+  Leer críticamente textos académicos que permitan desarrollar hábitos
+  intelectuales.
+\item
+  Discernir el ámbito general del tipo de investigación que realizará a
+  lo largo del programa académico.
+\item
+  Producir un ensayo corto (máximo 2000 palabras) en donde formule una
+  pregunta bien definida y determine la metodología que va a seguir para
+  responderla.
+\end{itemize}
+
+\subsection{Sesiones}\label{sesiones}
+
+\subsubsection{Sesión 1}\label{sesiuxf3n-1}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Tema & Pregunta central\\
+\hline
+Presentaci<U+00F3>n general del curso y del cuestionario sobre su disciplina & <U+00BF>Qu<U+00E9> buscan con sus estudios de maestr<U+00ED>a?\\
+\hline
+\end{tabular}
+
+Presentación en pantalla completa
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 2}\label{semana-2}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Tema & Pregunta central\\
+\hline
+Discusi<U+00F3>n en clase con base Michael O<U+2019>Rourke \& Stephen Crowley (2020) y Marisa Rinkus \& Stephanie Vasko (2020) & <U+00BF>C<U+00F3>mo es su disciplina base?\\
+\hline
+\end{tabular}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 3}\label{semana-3}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Tema & Pregunta central\\
+\hline
+Presentaci<U+00F3>n y discusi<U+00F3>n con base en Wolfagan Krohn (2017) & <U+00BF>Qu<U+00E9> retos enfrenta la investigaci<U+00F3>n interdisciplinar?\\
+\hline
+\end{tabular}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 4}\label{semana-4}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Tema & Pregunta central\\
+\hline
+La disciplinariedad con base en Richard Frodeman (2013) Cap 2 & <U+00BF>C<U+00F3>mo se investiga en su disciplina base?\\
+\hline
+\end{tabular}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 5}\label{semana-5}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Tema & Pregunta central\\
+\hline
+La interdisciplinariedad con base en Richard Frodeman (2013) Cap 3 & <U+00BF>Qu<U+00E9> cambios implica la investigaci<U+00F3>n interdisciplinar?\\
+\hline
+\end{tabular}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Semana 6}\label{semana-6}
+
+\begin{tabular}{>{\raggedright\arraybackslash}p{30em}|>{\raggedright\arraybackslash}p{30em}}
+\hline
+Tema & Pregunta central\\
+\hline
+Revisi<U+00F3>n de la discusi<U+00F3>n con base Michael O<U+2019>Rourke \& Stephen Crowley (2020) y Marisa Rinkus \& Stephanie Vasko (2020) & <U+00BF>C<U+00F3>mo formular una pregunta de investigaci<U+00F3>n?\\
+\hline
+\end{tabular}
+
+\subsection{Evaluación}\label{evaluaciuxf3n}
+
+\paragraph{\texorpdfstring{\textbf{Reseña
+crítica}}{Reseña crítica}}\label{reseuxf1a-cruxedtica}
+
+Después de la segunda semana de \emph{Introducción a la Sagrada
+Escritura} deberán tomar uno de los textos de la bibliografía sobre
+interdisciplinariedad y relacionar ese tipo de consideraciones con el
+estudio de una cuestion de fe, ciencia y cultura.
+
+\paragraph{\texorpdfstring{\textbf{Participación
+activa}}{Participación activa}}\label{participaciuxf3n-activa}
+
+El diálogo es esencial para el desarrollo de la materia pues será
+gracias a éste que podremos ver en acción los retos que presenta la
+integración de diferentes perspectivas.
+
+Habrá tres actividades en las que tendrán que participar, ofrenciendo su
+punto de vista de manera argumentada y dialogando con las opiniones de
+sus compañeros.
+
+\paragraph{\texorpdfstring{\textbf{Ensayo}}{Ensayo}}\label{ensayo}
+
+Extensión: entre 1000 y 2000 palabras.
+
+Se deberán tomar los temas de disciplinariedad e interdisciplininariedad
+y adptarlos a un ensayo corto en donde se presente una pregunta
+teológica bien definida y una sólida y precisa caracterización de la
+metología qu emplearían para responderla.
+
+\paragraph{\texorpdfstring{\textbf{Incumplimiento}}{Incumplimiento}}\label{incumplimiento}
+
+\emph{La vida nos da sorpresas; sorpresas nos da la vida.} Por eso, si
+por alguna razón no pueden cumplir con las fechas exigidas para los
+trabajos, es importante avisar al profesor con tiempo. Hablemos. No me
+tienen que contar todos los detalles de sus problemas pero es importante
+que si se encuentran en una situación en la que ven que no pueden
+cumplir con los requerimientos del seminario me avisen con la mayor
+anticipación posible y encontremos un plan para solventar el problema en
+lo que respecta a la clase. Insisto: hablemos, no se pierdan \textbf{:)}
+.
+
+\paragraph{\texorpdfstring{\textbf{Calificación}}{Calificación}}\label{calificaciuxf3n}
+
+\begin{tabular}{l|l|l}
+\hline
+Rese<U+00F1>a cr<U+00ED>tica & Participaci<U+00F3>n activa & Ensayo\\
+\hline
+15\% & 15\% & 70\%\\
+\hline
+\end{tabular}
+
+\end{document}

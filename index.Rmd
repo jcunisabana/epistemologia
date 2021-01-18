@@ -1,24 +1,26 @@
 ---
-title: "Epistemología de la investigación"
-author: 'Una introducción a la epistemología de la interdisciplinariedad'
+title: "Epistemolog<c3><ad>a de la investigaci<c3><b3>n"
+author: "Una introducci<c3><b3>n a la epistemolog<c3><ad>a de la interdisciplinariedad"
 date: ''
-always_allow_html: yes
 output:
- 
   html_document:
     theme: cerulean
     toc: yes
     toc_depth: 4
     toc_float: yes
   pdf_document:
+    keep_tex: yes
     latex_engine: xelatex
     toc: no
-    keep_tex: true
+  word_document:
+    toc: no
+    toc_depth: '4'
 lang: es-co
 header-includes:
 - \usepackage{fontspec}
 - \setmainfont{Adobe Jenson Pro}
 - \linespread{1.05}
+always_allow_html: yes
 ---
 <script>
 !--    google analytics-->
@@ -41,7 +43,7 @@ El objetivo general de este seminario es examinar los métodos,  metodologías y
 
 Discutiremos los valores de una disciplina, la forma en que las metodologías propias de una disciplina deben relacionarse con otras, la noción de evidencia, la relación entre la investigación, el sujeto y el objeto de estudio, la necesidad de la neutralidad en la investigación y la relación de la investigación académica con los llamados “problemas reales”.  
 
-Para ello, primero examinaremos el rol general de la discusión epistemológica en la maestría y hablaremos sobre las disciplinas base de quienes conmpongan el seminario, estas son aquellas que estudiaron durante su pregrado o la mayor parte de sus estudios, en la que se han desempeñado principalmente o con la que mejor se identifican. Después utilizaremos un cuestionario para guiar la discusión sobre la forma en que se investiga en cada una de sus disciplinas (basado en Hubbs, G., O'Rourke, M., & Orzack, S. H. (2020)) y la manera en que creen que esto enmarca también su futura investigación a lo largo de la Maestría en Teología. Posteriormente, discutiremos la tensión en la investigación disciplinar y su aplicabilidad a los “problemas reales” (con un espacio en donde discutiremos también la idoneidad de la noción de “problemas reales”). Para finalizar hablaremos sobre la idea misma de la disciplinariedad y las formas en que podemos caracterizar la diferencias con la interdisciplinariedad, transdisciplinariedad y multidisciplinariedad y otras formas de investigación por fuera de los esquemas presentados por una disciplina. Terminaremos con un retorno al cuestionario inicial con miras a determinar la forma en que su aproximación a la investigación ha cambiado a luz del seminario y la forma en que formularía una investigación sobre fe, ciencia y cultura dentro del marco epistemológico presentado. 
+Para ello, primero examinaremos el rol general de la discusión epistemológica en la maestría y hablaremos sobre las disciplinas base de quienes compongan el seminario, estas son aquellas que estudiaron durante su pregrado o la mayor parte de sus estudios, en la que se han desempeñado principalmente o con la que mejor se identifican. Después utilizaremos un cuestionario para guiar la discusión sobre la forma en que se investiga en cada una de sus disciplinas (basado en Hubbs, G., O'Rourke, M., & Orzack, S. H. (2020)) y la manera en que creen que esto enmarca también su futura investigación a lo largo de la Maestría en Teología. Posteriormente, discutiremos la tensión en la investigación disciplinar y su aplicabilidad a los “problemas reales” (con un espacio en donde discutiremos también la idoneidad de la noción de “problemas reales”). Para finalizar hablaremos sobre la idea misma de la disciplinariedad y las formas en que podemos caracterizar la diferencias con la interdisciplinariedad, transdisciplinariedad y multidisciplinariedad y otras formas de investigación por fuera de los esquemas presentados por una disciplina. Terminaremos con un retorno al cuestionario inicial con miras a determinar la forma en que su aproximación a la investigación ha cambiado a luz del seminario y la forma en que formularía una investigación sobre fe, ciencia y cultura dentro del marco epistemológico presentado. 
  
 **Profesor**: [Juan Camilo Espejo-Serna](../index.html)\ 
 
@@ -173,6 +175,7 @@ El **2 de Marzo** deberán entregar un escrito en donde tomen uno de los textos 
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
 
+=======
 
 #### **Participación activa**
 
@@ -180,13 +183,17 @@ El diálogo es esencial para el desarrollo de la materia pues será gracias a é
 
 Habrá tres actividades en las que tendrán que participar, ofrenciendo su punto de vista de manera argumentada y dialogando con las opiniones de sus compañeros. Si se participa en todas, la nota será 5. Si se participa en dos, la nota será de 3.5, si se participa en 1, la nota será de 2.0. 
 
+=======
+
 #### **Ensayo**
 Extensión: entre 1000 y 2000 palabras.
 
+<<<<<<< Updated upstream
 El **2 de Mayo** deberán entregar un ensayo corto en el que tomen los temas de disciplinariedad e interdisciplininariedad y presenten una pregunta teológica bien definida y una sólida y precisa caracterización de la metología qu emplearían para responderla. (Es una nueva versión de la reseña crítica en donde ahora incorporan todo lo visto en el curso y una investigación propia.)
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
 
+=======
 
 
 #### **Incumplimiento**
