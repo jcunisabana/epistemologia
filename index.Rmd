@@ -92,7 +92,7 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 ---
 `r Semana <- Semana +1`
 
-### Semana `r Semana`
+### Sesión `r Semana`
 
 ```{r echo=FALSE}
 
@@ -107,7 +107,7 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 ---
 `r Semana <- Semana +1`
 
-### Semana `r Semana`
+### Sesión `r Semana`
 
 ```{r echo=FALSE}
 
@@ -123,7 +123,7 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 ---
 `r Semana <- Semana +1`
 
-### Semana `r Semana`
+### Sesión `r Semana`
 
 ```{r echo=FALSE}
 
@@ -138,7 +138,7 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 ---
 `r Semana <- Semana +1`
 
-### Semana `r Semana`
+### Sesión `r Semana`
 
 ```{r echo=FALSE}
 
@@ -153,7 +153,7 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 ---
 `r Semana <- Semana +1`
 
-### Semana `r Semana`
+### Sesión `r Semana`
 
 ```{r echo=FALSE}
 
