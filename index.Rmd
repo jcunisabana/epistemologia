@@ -1,6 +1,6 @@
 ---
-title: "Epistemolog<c3><ad>a de la investigaci<c3><b3>n"
-author: "Una introducci<c3><b3>n a la epistemolog<c3><ad>a de la interdisciplinariedad"
+title: "Epistemología de la investigación"
+author: "Una introducciónn a la epistemolog<c3><ad>a de la interdisciplinariedad"
 date: ''
 output:
   html_document:
@@ -175,7 +175,7 @@ El **2 de Marzo** deberán entregar un escrito en donde tomen uno de los textos 
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
 
-=======
+--
 
 #### **Participación activa**
 
@@ -183,17 +183,17 @@ El diálogo es esencial para el desarrollo de la materia pues será gracias a é
 
 Habrá tres actividades en las que tendrán que participar, ofrenciendo su punto de vista de manera argumentada y dialogando con las opiniones de sus compañeros. Si se participa en todas, la nota será 5. Si se participa en dos, la nota será de 3.5, si se participa en 1, la nota será de 2.0. 
 
-=======
+---
 
 #### **Ensayo**
 Extensión: entre 1000 y 2000 palabras.
 
-<<<<<<< Updated upstream
 El **2 de Mayo** deberán entregar un ensayo corto en el que tomen los temas de disciplinariedad e interdisciplininariedad y presenten una pregunta teológica bien definida y una sólida y precisa caracterización de la metología qu emplearían para responderla. (Es una nueva versión de la reseña crítica en donde ahora incorporan todo lo visto en el curso y una investigación propia.)
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
-
-=======
+ 
+ 
+---
 
 
 #### **Incumplimiento**
@@ -238,9 +238,9 @@ library(kableExtra)
 - Hubbs, Graham, Michael O’Rourke, and Steven Heck Orzack, eds. 2020. The Toolbox Dialogue Initiative. The Toolbox Dialogue Initiative. https://doi.org/10.1201/9780429440014.
 - Rinkus, Marisa A., and Stephanie E. Vasko. 2020. “Best Practices for Planning and Running a Toolbox Workshop.” In The Toolbox Dialogue Initiative. https://doi.org/10.4324/9780429440014-8.
 - Brazal, Agnes M, and Daniel Franklin Pilario. 2008. “Disciplines, Interdisciplinarity and Theology.” Hapág: A Journal of Interdisciplinary Theological Research. https://doi.org/10.3860/hapag.v4i1.657.
-- Krohn, Wolfgang. 2010. “Interdisciplinary Cases and Disciplinary Knowledge.” In The Oxford Handbook of Interdisciplinarity. Oxford ….
+- Krohn, Wolfgang. 2010. “Interdisciplinary Cases and Disciplinary Knowledge.” In The Oxford Handbook of Interdisciplinarity. Oxford.
 - Frodeman, Robert. 2017. The Oxford Handbook of Interdisciplinarity 2nd Ed. Oxford Handbook.
-- Stone, Howard W., and James O. Duke. 2018. How to Think Theologically. How to Think Theologically. https://doi.org/10.2307/j.ctt22nmb9s.
+- Stone, Howard W., and James O. Duke. 2018. How to Think Theologically. https://doi.org/10.2307/j.ctt22nmb9s.
 
 
 
