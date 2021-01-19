@@ -103,6 +103,11 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 
 ```
 
+
+<iframe width="100%" height="400" align="middle" src="2.html" border="0">
+</iframe>
+<a href="2.html">Presentación en pantalla completa</a>
+
 <img src="img/borde.jpg" style="padding:5px;">
 
 
@@ -175,7 +180,7 @@ El **2 de Marzo** deberán entregar un escrito en donde tomen uno de los textos 
 
 Se evaluarán dos aspectos: la presentación apropiada de la pregunta general por la relación entre disciplinas y la forma en que se establece la relación con alguna cuestión Teológica.
 
---
+---
 
 #### **Participación activa**
 
