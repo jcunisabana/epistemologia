@@ -1,6 +1,6 @@
 ---
 title: "Epistemología de la investigación"
-author: "Una introducciónn a la epistemolog<c3><ad>a de la interdisciplinariedad"
+author: "Una introducción a la epistemología de la interdisciplinariedad"
 date: ''
 output:
   html_document:
