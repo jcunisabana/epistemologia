@@ -123,6 +123,13 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 
 ```
 
+<iframe width="100%" height="400" align="middle" src="3.html" border="0">
+</iframe>
+<a href="3.html">Presentación en pantalla completa</a>
+
+<img src="img/borde.jpg" style="padding:5px;">
+
+
 
 <img src="img/borde.jpg" style="padding:5px;">
 
