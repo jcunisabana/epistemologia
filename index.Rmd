@@ -131,8 +131,6 @@ Notas <- read_excel("Epis.xlsx", sheet = "notas")
 
 
 
-<img src="img/borde.jpg" style="padding:5px;">
-
 
 ---
 `r Semana <- Semana +1`
